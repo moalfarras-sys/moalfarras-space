@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta name="google-adsense-account" content="ca-pub-5537213929748711">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5537213929748711" crossorigin="anonymous"></script>
+    <meta charset="UTF-8" />
+    <title>السيرة الذاتية | محمد الفراس</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="سيرة ذاتية احترافية لمحمد الفراس – خبرة في اللوجستيك، الإنتاج، والتطوع، مع شغف بالمحتوى التقني وتصميم المواقع."
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="canonical" href="https://moalfarras.space/cv.html" />
+    <link rel="alternate" hreflang="ar" href="https://moalfarras.space/cv.html" />
+    <link rel="alternate" hreflang="en" href="https://moalfarras.space/en/cv.html" />
+
+    <!-- ستايل خاص بصفحة السيرة الذاتية فقط -->
+    <style>
+      .cv-shell {
+        padding: 28px 0 32px;
+        display: grid;
+        grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+        gap: 22px;
+        align-items: flex-start;
+      }
+
+      .cv-main-card {
+        padding: 22px 22px 20px;
+      }
+
+      .cv-pill-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin: 10px 0 6px;
+      }
+
+      .cv-pill {
+        border-radius: 999px;
+        padding: 5px 11px;
+        font-size: 0.78rem;
+        background: rgba(37, 99, 235, 0.06);
+        border: 1px solid rgba(148, 163, 184, 0.35);
+        color: var(--accent);
+      }
+
+      .cv-meta-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+        gap: 8px;
+        margin-top: 12px;
+        font-size: 0.8rem;
+      }
+
+      .cv-meta-item dt {
+        color: var(--muted);
+        font-size: 0.76rem;
+      }
+
+      .cv-meta-item dd {
+        font-weight: 500;
+      }
+
+      .cv-section-title {
+        font-size: 0.9rem;
+        margin-bottom: 3px;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+      }
+
+      .cv-section-title span.icon {
+        width: 18px;
+        height: 18px;
+        border-radius: 999px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.7rem;
+        background: rgba(37, 99, 235, 0.12);
+        color: var(--accent);
+      }
+
+      .cv-right-col {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+      }
+
+      /* تايم لاين خاص بالـ CV */
+      .cv-timeline {
+        margin-top: 10px;
+        position: relative;
+      }
+
+      .cv-timeline::before {
+        content: "";
+        position: absolute;
+        inset-inline-start: 10px;
+        top: 0;
+        bottom: 0;
+        width: 2px;
+        background: linear-gradient(
+          to bottom,
+          rgba(148, 163, 184, 0.5),
+          rgba(148, 163, 184, 0.1)
+        );
+      }
+
+      .cv-timeline-item {
+        position: relative;
+        padding-inline-start: 30px;
+        padding-bottom: 12px;
+        margin-bottom: 4px;
+      }
+
+      .cv-timeline-dot {
+        position: absolute;
+        inset-inline-start: 4px;
+        top: 4px;
+        width: 12px;
+        height: 12px;
+        border-radius: 999px;
+        background: linear-gradient(135deg, var(--accent), var(--accent-2));
+        box-shadow: 0 0 10px rgba(37, 99, 235, 0.7);
+      }
+
+      .cv-timeline-role {
+        font-size: 0.86rem;
+        font-weight: 600;
+        margin-bottom: 2px;
+      }
+
+      .cv-timeline-company {
+        font-size: 0.78rem;
+        color: var(--muted);
+        margin-bottom: 2px;
+      }
+
+      .cv-timeline-meta {
+        font-size: 0.75rem;
+        color: var(--muted);
+        margin-bottom: 4px;
+      }
+
+      .cv-timeline-desc {
+        font-size: 0.8rem;
+      }
+
+      /* مهارات */
+      .cv-skills-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+        gap: 12px;
+      }
+
+      .cv-skill-block-title {
+        font-size: 0.85rem;
+        font-weight: 600;
+        margin-bottom: 8px;
+      }
+
+      .cv-bullets {
+        list-style: none;
+        padding: 0;
+        margin: 4px 0 0;
+        font-size: 0.8rem;
+      }
+
+      .cv-bullets li {
+        margin-bottom: 4px;
+      }
+
+      .cv-bullets li::before {
+        content: "•";
+        margin-inline-end: 4px;
+        color: var(--accent);
+      }
+
+      .cv-download {
+        margin-top: 16px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+
+      .cv-download-note {
+        font-size: 0.78rem;
+        color: var(--muted);
+      }
+
+      @media (max-width: 860px) {
+        .cv-shell {
+          grid-template-columns: minmax(0, 1fr);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <!-- NAVBAR -->
+            <header class="navbar">
+        <div class="container">
+          <div class="navbar-inner">
+            <div class="brand-area">
+              <a href="index.html" class="brand-logo">
+                <img loading="lazy" src="assets/img/logo-unboxing.png" alt="Mohammad Alfarras Logo" />
+              </a>
+              <div class="brand-text">
+                <div class="brand-text-main">MOHAMMAD ALFARRAS</div>
+                <div class="brand-text-sub">Unboxing · Reviews · Web & IPTV</div>
+              </div>
+            </div>
+            <div class="nav-glass">
+              <nav class="nav-links">
+                <span class="nav-underline"></span>
+                <a href="index.html"><span class="icon-dot"></span>الرئيسية</a>
+                <a href="cv.html"><span class="icon-dot"></span>السيرة الذاتية</a>
+                <a href="blog.html"><span class="icon-dot"></span>المدونة &amp; الأعمال</a>
+                <a href="youtube.html"><span class="icon-dot"></span>قسم يوتيوب</a>
+                <a href="contact.html"><span class="icon-dot"></span>تواصل معي و قيّمني</a>
+                
+              </nav>
+            </div>
+            <div class="nav-actions">
+              <a class="chip-btn" href="en/index.html">EN</a>
+              <button class="icon-btn" id="theme-toggle">🌙 Dark</button>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      
+      
+      <main class="container">
+        <section class="section">
+          <header class="cv-header">
+            <div>
+              <div class="hero-kicker">السيرة الذاتية</div>
+              <h1 class="cv-name">محمد الفراس</h1>
+              <p class="cv-role">
+                من الحسكة إلى برلين؛ عمل ميداني في ألمانيا، محتوى تقني بالعربية، واهتمام بحلول رقمية بسيطة.
+              </p>
+              <div class="cv-meta-list">
+                <div class="cv-meta-item">
+                  <div class="cv-meta-label">الموقع</div>
+                  <div class="cv-meta-value">برلين، ألمانيا</div>
+                </div>
+                <div class="cv-meta-item">
+                  <div class="cv-meta-label">الخبرة</div>
+                  <div class="cv-meta-value">أكثر من 6 سنوات في العمل الميداني</div>
+                </div>
+                <div class="cv-meta-item">
+                  <div class="cv-meta-label">اللغات</div>
+                  <div class="cv-meta-value">العربية · الألمانية · الإنجليزية</div>
+                </div>
+              </div>
+              <p style="margin-top:12px; font-size:0.86rem;">
+                ولدت في الحسكة وانتقلت إلى ألمانيا بحثاً عن فرصة حياة أفضل. بدأت بتعلّم اللغة الألمانية
+                والكورسات الأساسية، ثم دخلت مجال اللوجستيك والعمل في المستودعات وخطوط الإنتاج. بالتوازي،
+                طوّرت شغفي بالمحتوى التقني وقنوات اليوتيوب لخدمة الجمهور العربي الموجود داخل أوروبا وخارجها.
+              </p>
+              <p style="font-size:0.86rem;">
+                اليوم أمزج بين الشغل العملي على أرض الواقع، والخبرة في الأجهزة والخدمات الرقمية مثل IPTV،
+                مع رغبة في التطور المستمر وتعلّم ما يساعدني أقدّم قيمة حقيقية للناس والشركات.
+              </p>
+              <div class="cv-contact-icons">
+                <a class="social-icon-link" href="https://youtube.com/@moalfarras" target="_blank" rel="noreferrer" aria-label="YouTube">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                      fill="currentColor"
+                      d="M21.6 7.2a2.4 2.4 0 0 0-1.7-1.7C18.3 5 12 5 12 5s-6.3 0-7.9.5A2.4 2.4 0 0 0 2.4 7.2 25.1 25.1 0 0 0 2 12a25.1 25.1 0 0 0 .4 4.8 2.4 2.4 0 0 0 1.7 1.7C5.7 19 12 19 12 19s6.3 0 7.9-.5a2.4 2.4 0 0 0 1.7-1.7A25.1 25.1 0 0 0 22 12a25.1 25.1 0 0 0-.4-4.8Z"
+                    />
+                  </svg>
+                </a>
+                <a class="social-icon-link" href="https://www.instagram.com/moalfarras?igsh=MTlhcWJhNTh4MzBvOQ%3D%3D&utm_source=qr" target="_blank" rel="noreferrer" aria-label="Instagram">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <rect x="3" y="3" width="18" height="18" rx="5" ry="5" fill="none" stroke="currentColor" stroke-width="1.6" />
+                    <circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.6" />
+                    <circle cx="17" cy="7" r="1.2" fill="currentColor" />
+                  </svg>
+                </a>
+                <a class="social-icon-link" href="https://t.me/MoalFarras" target="_blank" rel="noreferrer" aria-label="Telegram">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                      fill="currentColor"
+                      d="M4.5 11.8 19 5.5c.8-.3 1.5.3 1.2 1.2l-3 11.1c-.2.8-1 .1-1.4-.1l-3.9-3-2 1.9c-.2.2-.3.3-.6.3l.3-4.1 7.4-6.7-9.1 5.7-4-1.3c-.9-.3-.9-1.1.2-1.4Z"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            
+            <aside class="glass cv-intro-card cv-intro-photo">
+              <div class="cv-photo-frame">
+                <div class="cv-photo-inner">
+                  <img loading="lazy" src="assets/img/portrait.jpg" alt="صورة محمد الفراس" />
+                  
+<div class="hero-photo-glow"></div>
+                </div>
+                <div class="hero-floating-icons" aria-hidden="true">
+                  <div class="hero-floating-icon hero-floating-icon--top-left">
+                    <span class="hero-floating-icon-emoji">🚚</span>
+                  </div>
+                  <div class="hero-floating-icon hero-floating-icon--top-right">
+                    <span class="hero-floating-icon-emoji">🎧</span>
+                  </div>
+                  <div class="hero-floating-icon hero-floating-icon--bottom-left">
+                    <span class="hero-floating-icon-emoji">📱</span>
+                  </div>
+                  <div class="hero-floating-icon hero-floating-icon--bottom-right">
+                    <span class="hero-floating-icon-emoji">📊</span>
+                  </div>
+                </div>
+              </div>
+              <p class="cv-photo-caption">
+                من الحسكة إلى برلين؛ تجربة حياة جديدة بين الشغل اليومي والمحتوى التقني.
+              </p>
+            </aside>
+
+          </header>
+
+          <div class="cv-layout">
+            <div class="cv-layout-main">
+              <article class="glass cv-about-intro">
+                <h2 class="card-title">من الحسكة إلى برلين</h2>
+                <p class="section-subtitle" style="margin-bottom:8px;">
+                  اسمي محمد الفراس؛ وصلت إلى ألمانيا قادماً من الحسكة، وبين الشغل في المستودعات وخطوط الإنتاج
+                  بدأت أكتشف نفسي أكثر مع المحتوى التقني وتجارب الأجهزة في البيت.
+                </p>
+                <p class="hero-about">
+                  أحب أجرّب الأشياء كما هي في الواقع: جهاز تنظيف، تلفزيون جديد، اشتراك IPTV أو أداة صغيرة
+                  تسهّل اليوم. أقارن بين السعر والجودة وأحاول أشرح الصورة ببساطة وبلهجتنا، من غير مصطلحات
+                  معقدة ولا وعود مبالغ فيها.
+                </p>
+                <p class="hero-about">
+                  هذه الصفحة تجمع تجربتي العملية في ألمانيا مع الاهتمام بالمحتوى التقني والعمل التطوعي. إذا
+                  كنت صاحب شركة، مسؤول توظيف، أو شخص حاب يتعرّف أكثر على طريقتي في الشغل، فهذه السيرة
+                  الذاتية هي أفضل مكان للبدء.
+                </p>
+              </article>
+
+              <article class="glass">
+                <h2 class="card-title">الخبرة · التعليم · التطوع</h2>
+                <p class="section-subtitle" style="margin-bottom:10px;">
+                  تم تقسيم السيرة الذاتية إلى ثلاث طيات رئيسية: الشغل، الدراسة، والتطوع. افتح القسم اللي يهمك لتشوف التفاصيل.
+                </p>
+
+                <div class="cv-accordion">
+                  <article class="cv-accordion-item is-open">
+                    <button class="cv-accordion-header" type="button">
+                      <span>الخبرة العملية</span>
+                      <span class="cv-accordion-chevron" aria-hidden="true">⌄</span>
+                    </button>
+                    <div class="cv-accordion-body">
+                      <ol class="cv-timeline">
+                        <li class="timeline-item cv-timeline-item">
+                          <div class="timeline-dot"></div>
+                          <div class="timeline-year">2017 – حتى الآن</div>
+                          <div class="timeline-title">لوجستيك ومستودعات – شركات في برلين</div>
+                          <div class="timeline-meta">تجهيز طلبات · استلام بضائع · تنظيم المستودع</div>
+                          <p>
+                            العمل على تحضير الطلبات، ترتيب الرفوف، استخدام أنظمة مسح الباركود، والتعامل مع
+                            عمليات الشحن والاسترجاع. التركيز دائماً على الدقة والسرعة والأمان في التعامل مع البضائع.
+                          </p>
+                        </li>
+                        <li class="timeline-item cv-timeline-item">
+                          <div class="timeline-dot"></div>
+                          <div class="timeline-year">2018 – 2023</div>
+                          <div class="timeline-title">إنتاج وتشغيل آلات</div>
+                          <div class="timeline-meta">عدة مصانع في ألمانيا · مناوبات صباحية ومسائية</div>
+                          <p>
+                            تشغيل ومراقبة آلات الإنتاج، متابعة جودة القطع، حل المشاكل البسيطة في الآلة،
+                            وتوثيق الأعطال أو الأخطاء عند المسؤولين. الالتزام بقواعد السلامة داخل بيئة العمل.
+                          </p>
+                        </li>
+                        <li class="timeline-item cv-timeline-item">
+                          <div class="timeline-dot"></div>
+                          <div class="timeline-year">2019 – حتى الآن</div>
+                          <div class="timeline-title">صناعة محتوى تقني بالعربية</div>
+                          <div class="timeline-meta">قناة يوتيوب · منصات سوشال</div>
+                          <p>
+                            تجربة أجهزة منزلية، ملحقات كمبيوتر، وخدمات رقمية مثل IPTV، مع تصوير وتحرير فيديوهات
+                            تشرح الإيجابيات والسلبيات وتجاوب على أسئلة الناس قبل الشراء.
+                          </p>
+                        </li>
+                      </ol>
+                    </div>
+                  </article>
+
+                  <article class="cv-accordion-item">
+                    <button class="cv-accordion-header" type="button">
+                      <span>الدراسة والدورات</span>
+                      <span class="cv-accordion-chevron" aria-hidden="true">⌄</span>
+                    </button>
+                    <div class="cv-accordion-body">
+                      <ol class="cv-timeline">
+                        <li class="timeline-item cv-timeline-item">
+                          <div class="timeline-dot"></div>
+                          <div class="timeline-year">2015 – 2017</div>
+                          <div class="timeline-title">دورات لغة ألمانية حتى مستوى متقدّم</div>
+                          <div class="timeline-meta">معاهد مختلفة في برلين</div>
+                          <p>
+                            دراسة اللغة الألمانية في أكثر من معهد، مع تركيز على اللغة المستخدمة في سوق العمل،
+                            كتابة الطلبات الرسمية، وفهم العقود والتعليمات اليومية في الحياة والعمل.
+                          </p>
+                        </li>
+                        <li class="timeline-item cv-timeline-item">
+                          <div class="timeline-dot"></div>
+                          <div class="timeline-year">2017 – 2019</div>
+                          <div class="timeline-title">دورات محاسبة وأساسيات عمل المكاتب</div>
+                          <div class="timeline-meta">كورسات متخصصة في برلين</div>
+                          <p>
+                            مقدمة عن المحاسبة، قراءة الفواتير، تتبع التكاليف، والتعامل مع برامج بسيطة للمحاسبة.
+                            هذه المعرفة تساعد في فهم طريقة عمل الشركات من الداخل واتخاذ قرارات عملية أفضل.
+                          </p>
+                        </li>
+                        <li class="timeline-item cv-timeline-item">
+                          <div class="timeline-dot"></div>
+                          <div class="timeline-year">تعلم مستمر</div>
+                          <div class="timeline-title">تعلم ذاتي في التقنية والمونتاج والويب</div>
+                          <div class="timeline-meta">دروس أونلاين · قنوات يوتيوب · تجارب شخصية</div>
+                          <p>
+                            متابعة دورات ومصادر أونلاين عن المونتاج البسيط، تصوير المنتجات، وHTML/CSS لبناء صفحات
+                            هبوط ومواقع بسيطة بدون تعقيد.
+                          </p>
+                        </li>
+                      </ol>
+                    </div>
+                  </article>
+
+                  <article class="cv-accordion-item">
+                    <button class="cv-accordion-header" type="button">
+                      <span>التطوع والعمل المجتمعي</span>
+                      <span class="cv-accordion-chevron" aria-hidden="true">⌄</span>
+                    </button>
+                    <div class="cv-accordion-body">
+                      <ol class="cv-timeline">
+                        <li class="timeline-item cv-timeline-item">
+                          <div class="timeline-dot"></div>
+                          <div class="timeline-year">قبل الوصول إلى ألمانيا</div>
+                          <div class="timeline-title">مبادرات مجتمعية في الحسكة</div>
+                          <div class="timeline-meta">تنظيم فعاليات بسيطة ودعم للأهالي</div>
+                          <p>
+                            المشاركة في أنشطة اجتماعية ومبادرات محلية تهدف لمساعدة الناس في الحياة اليومية
+                            ونقل المعلومات بينهم بطريقة واضحة.
+                          </p>
+                        </li>
+                        <li class="timeline-item cv-timeline-item">
+                          <div class="timeline-dot"></div>
+                          <div class="timeline-year">بعد الوصول إلى ألمانيا</div>
+                          <div class="timeline-title">دعم للاجئين والتعريف بالإجراءات</div>
+                          <div class="timeline-meta">مراكز مساعدة · مجموعات مجتمعية</div>
+                          <p>
+                            مساعدة في الترجمة وشرح الأوراق الرسمية والإجراءات الجديدة للناس الجدد، ونقل
+                            الخبرة التي اكتسبتها في التعامل مع الجهات الرسمية.
+                          </p>
+                        </li>
+                      </ol>
+                    </div>
+                  </article>
+                </div>
+              </article>
+            </div>
+
+            <aside class="cv-layout-side">
+              <article class="glass">
+                <h2 class="card-title">مهارات رئيسية</h2>
+                <div class="skill-row">
+                  <div class="skill-label">
+                    <span>لوجستيك ومستودعات</span>
+                    <span class="skill-level-tag">متقدّم</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div class="skill-bar-fill" style="--skill-level: 0.9;"></div>
+                  </div>
+                </div>
+                <div class="skill-row">
+                  <div class="skill-label">
+                    <span>إنتاج وتشغيل آلات</span>
+                    <span class="skill-level-tag">متوسّط إلى متقدّم</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div class="skill-bar-fill" style="--skill-level: 0.8;"></div>
+                  </div>
+                </div>
+                <div class="skill-row">
+                  <div class="skill-label">
+                    <span>صناعة محتوى تقني</span>
+                    <span class="skill-level-tag">متوسّط</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div class="skill-bar-fill" style="--skill-level: 0.75;"></div>
+                  </div>
+                </div>
+                <div class="skill-row">
+                  <div class="skill-label">
+                    <span>التواصل مع العملاء</span>
+                    <span class="skill-level-tag">متقدّم</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div class="skill-bar-fill" style="--skill-level: 0.85;"></div>
+                  </div>
+                </div>
+                <div class="skill-row">
+                  <div class="skill-label">
+                    <span>العمل ضمن فريق</span>
+                    <span class="skill-level-tag">متقدّم</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div class="skill-bar-fill" style="--skill-level: 0.9;"></div>
+                  </div>
+                </div>
+                <div class="skill-circles">
+                  <div class="skill-circle">
+                    <div class="skill-circle-gauge" style="--level:0.9;">90%</div>
+                    <div>Logistics</div>
+                  </div>
+                  <div class="skill-circle">
+                    <div class="skill-circle-gauge" style="--level:0.8;">80%</div>
+                    <div>Machines</div>
+                  </div>
+                  <div class="skill-circle">
+                    <div class="skill-circle-gauge" style="--level:0.75;">75%</div>
+                    <div>Content</div>
+                  </div>
+                </div>
+              </article>
+
+              <article class="glass">
+                <h2 class="card-title">ملخص سريع</h2>
+                <p style="font-size:0.8rem; margin-bottom:10px;">يمكنك تحميل نسخة مختصرة من السيرة الذاتية بصيغة PDF، أو الاطلاع على النسخة المحدثة دائماً من هذه الصفحة.</p>
+                <a class="btn btn-outline" href="assets/cv/Mohammad-Alfarras-CV.pdf" target="_blank" rel="noreferrer">تحميل السيرة الذاتية PDF</a>
+                <p style="font-size:0.84rem;">
+                  مزيج بين خبرة عملية في المستودعات وخطوط الإنتاج، وقدرة على شرح التقنية بالعربية بلغة بسيطة
+                  ومباشرة. أبحث عن بيئة عمل تقدّر الالتزام والوضوح، وتسمح بالتطوّر المستمر.
+                </p>
+              </article>
+            </aside>
+          </div>
+        </section>
+      </main>
+
+
+
+      <footer class="footer">
+        <div class="container">
+          © <span id="year"></span> Mohammad Alfarras – CV
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
